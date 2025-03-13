@@ -3,13 +3,14 @@ return {
 
   {
     "t1gu1/nvchad-base46",
+    branch = "feature/rosepine-moon",
     build = function()
       require("base46").load_all_highlights()
     end,
   },
 
   {
-    "nvchad/ui",
+    "t1gu1/nvchad-ui",
     lazy = false,
     config = function()
       require "nvchad"
